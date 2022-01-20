@@ -1,0 +1,87 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    font-family: 'Poppins', sans-serif;
+}
+
+.main{
+    height: 947px;
+    width: 100%;
+    background: linear-gradient(#00DBDE,#FC00FF) ;
+
+}
+
+.main .head-content{
+    padding-top: 100px;
+    color: #fff;
+}
+
+
+.head-content h1{
+    font-size: 50px;
+}
+
+
+.head-content a{
+    text-decoration: none;
+    color: #fff;
+}
+.main-container{
+    padding-top: 50px;
+}
+.card{
+    padding: 12px 20px;
+    border-radius: 10px;
+    color: #fff;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(5px);
+    -webkit-backdrop-filter: blur(5px);
+    border: 0px ;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+}
+
+.card h1{
+    font-weight: 600;
+}
+
+.card a{
+    color: #fff;
+    text-decoration: none;
+}
+
+
+
+@media(max-width: 768px){
+    .head-content{
+        padding-top: 30px !important;
+    }
+
+    .head-content h1{
+        font-size: 35px !important;
+    }
+
+    .main{
+        height: 1060px;
+    }
+}
+
+@media(max-width: 476px){
+    .main{
+        height: 1160px;
+    }
+}
+
+@media(max-width: 350px){
+    .main{
+        height: 1300px;
+    }
+}
+
+@media(max-width: 308px){
+    .main{
+        height: 1500px;
+    }
+}
